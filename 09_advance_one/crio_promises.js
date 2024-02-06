@@ -43,7 +43,7 @@ const gradePromise = new Promise(function(pass, fail){
     }
 })
 
-
+ 
 gradePromise.then((passData)=>{
     console.log(passData.message)
 }).catch((failData)=>{
